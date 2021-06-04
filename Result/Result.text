@@ -1,0 +1,879 @@
+a6/element/e3b20ce5-b82a-4c10-89ab-7f7a4d8a659e/name
+[0-4] 2021-06-04T16:32:01.661Z INFO webdriver: RESULT img
+[0-4] img
+[0-4] 2021-06-04T16:32:01.663Z INFO webdriver: COMMAND getWindowRect()
+[0-4] 2021-06-04T16:32:01.663Z INFO webdriver: [GET] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/window/rect
+[0-4] 2021-06-04T16:32:01.687Z INFO webdriver: RESULT { height: 670, width: 1050, x: 10, y: 10 }
+[0-4] { width: 1050, height: 670 }
+[0-4] 2021-06-04T16:32:01.690Z INFO webdriver: COMMAND addCookie(<object>)
+[0-4] 2021-06-04T16:32:01.690Z INFO webdriver: [POST] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/cookie
+[0-4] 2021-06-04T16:32:01.690Z INFO webdriver: DATA { cookie: { name: 'testing', value: '123' } }
+[0-4] 2021-06-04T16:32:01.692Z INFO webdriver: COMMAND addCookie(<object>)
+[0-4] 2021-06-04T16:32:01.693Z INFO webdriver: [POST] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/cookie
+[0-4] 2021-06-04T16:32:01.693Z INFO webdriver: DATA { cookie: { name: 'testing1', value: '1233' } }
+[0-4] 2021-06-04T16:32:01.758Z INFO webdriver: COMMAND getAllCookies()
+[0-4] 2021-06-04T16:32:01.759Z INFO webdriver: [GET] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/cookie
+[0-4] 2021-06-04T16:32:01.777Z INFO webdriver: RESULT [
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '123'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1685896321,
+[0-4]     httpOnly: false,
+[0-4]     name: '_ga',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1468707562.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622831511,
+[0-4]     httpOnly: true,
+[0-4]     name: 'ak_bmsc',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: '138C56A12BCF1804CC28874B659DB4515F650DC5DC5600007755BA60269C4321~ploGOeqOF33cJm5h0T+ZZxMU0f3JZ6a3RdV5eD09tVqNKfu8BTUWJzQy/6Iw372i3lMMHQqqhxsgkhd32GnnexzXv0Ee3F6pv1Tmf3D/6QAjPEafoY5HXJpze+vZylahsM7/WE70sfo9aTsaA5g1YcCW9u150BWas4BmxVOkMDFkMGncBE7t8wU50419klMb9oRWUhNnaR/zXwCs09n9nc3q7ad5Ul5YE0yoUpvwDZWHQf7NpwGq/kD6F49NAW7SH5VJC9Q51dv4O0fKVEWLF0VACDlaP56NuLwiyarfE7hCM='
+[0-4]   },
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing1',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '1233'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622910721,
+[0-4]     httpOnly: false,
+[0-4]     name: '_gid',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1276721492.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.www.volvocars.com',
+[0-4]     expiry: 1654360320,
+[0-4]     httpOnly: false,
+[0-4]     name: 'OptanonConsent',
+[0-4]     path: '/intl',
+[0-4]     sameSite: 'Lax',
+[0-4]     secure: false,
+[0-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0'
+[0-4]   }
+[0-4] ]
+[0-4] [
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '123'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1685896321,
+[0-4]     httpOnly: false,
+[0-4]     name: '_ga',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1468707562.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622831511,
+[0-4]     httpOnly: true,
+[0-4]     name: 'ak_bmsc',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: '138C56A12BCF1804CC28874B659DB4515F650DC5DC5600007755BA60269C4321~ploGOeqOF33cJm5h0T+ZZxMU0f3JZ6a3RdV5eD09tVqNKfu8BTUWJzQy/6Iw372i3lMMHQqqhxsgkhd32GnnexzXv0Ee3F6pv1Tmf3D/6QAjPEafoY5HXJpze+vZylahsM7/WE70sfo9aTsaA5g1YcCW9u150BWas4BmxVOkMDFkMGncBE7t8wU50419klMb9oRWUhNnaR/zXwCs09n9nc3q7ad5Ul5YE0yoUpvwDZWHQf7NpwGq/kD6F49NAW7SH5VJC9Q51dv4O0fKVEWLF0VACDlaP56NuLwiyarfE7hCM='
+[0-4]   },
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing1',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '1233'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622910721,
+[0-4]     httpOnly: false,
+[0-4]     name: '_gid',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1276721492.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.www.volvocars.com',
+[0-4]     expiry: 1654360320,
+[0-4]     httpOnly: false,
+[0-4]     name: 'OptanonConsent',
+[0-4]     path: '/intl',
+[0-4]     sameSite: 'Lax',
+[0-4]     secure: false,
+[0-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0'
+[0-4]   }
+[0-4] ]
+[0-4] 2021-06-04T16:32:01.779Z INFO webdriver: COMMAND deleteCookie("<Screenshot[base64]>")
+[0-4] 2021-06-04T16:32:01.779Z INFO webdriver: [DELETE] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/cookie/testing1
+[0-4] 2021-06-04T16:32:01.844Z INFO webdriver: COMMAND getAllCookies()
+[0-4] 2021-06-04T16:32:01.845Z INFO webdriver: [GET] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/cookie
+[0-4] 2021-06-04T16:32:01.871Z INFO webdriver: RESULT [
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '123'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1685896321,
+[0-4]     httpOnly: false,
+[0-4]     name: '_ga',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1468707562.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622831511,
+[0-4]     httpOnly: true,
+[0-4]     name: 'ak_bmsc',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: '138C56A12BCF1804CC28874B659DB4515F650DC5DC5600007755BA60269C4321~ploGOeqOF33cJm5h0T+ZZxMU0f3JZ6a3RdV5eD09tVqNKfu8BTUWJzQy/6Iw372i3lMMHQqqhxsgkhd32GnnexzXv0Ee3F6pv1Tmf3D/6QAjPEafoY5HXJpze+vZylahsM7/WE70sfo9aTsaA5g1YcCW9u150BWas4BmxVOkMDFkMGncBE7t8wU50419klMb9oRWUhNnaR/zXwCs09n9nc3q7ad5Ul5YE0yoUpvwDZWHQf7NpwGq/kD6F49NAW7SH5VJC9Q51dv4O0fKVEWLF0VACDlaP56NuLwiyarfE7hCM='
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622910721,
+[0-4]     httpOnly: false,
+[0-4]     name: '_gid',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1276721492.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.www.volvocars.com',
+[0-4]     expiry: 1654360320,
+[0-4]     httpOnly: false,
+[0-4]     name: 'OptanonConsent',
+[0-4]     path: '/intl',
+[0-4]     sameSite: 'Lax',
+[0-4]     secure: false,
+[0-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0'
+[0-4]   }
+[0-4] ]
+[0-4] [
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '123'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1685896321,
+[0-4]     httpOnly: false,
+[0-4]     name: '_ga',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1468707562.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622831511,
+[0-4]     httpOnly: true,
+[0-4]     name: 'ak_bmsc',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: '138C56A12BCF1804CC28874B659DB4515F650DC5DC5600007755BA60269C4321~ploGOeqOF33cJm5h0T+ZZxMU0f3JZ6a3RdV5eD09tVqNKfu8BTUWJzQy/6Iw372i3lMMHQqqhxsgkhd32GnnexzXv0Ee3F6pv1Tmf3D/6QAjPEafoY5HXJpze+vZylahsM7/WE70sfo9aTsaA5g1YcCW9u150BWas4BmxVOkMDFkMGncBE7t8wU50419klMb9oRWUhNnaR/zXwCs09n9nc3q7ad5Ul5YE0yoUpvwDZWHQf7NpwGq/kD6F49NAW7SH5VJC9Q51dv4O0fKVEWLF0VACDlaP56NuLwiyarfE7hCM='
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622910721,
+[0-4]     httpOnly: false,
+[0-4]     name: '_gid',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1276721492.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.www.volvocars.com',
+[0-4]     expiry: 1654360320,
+[0-4]     httpOnly: false,
+[0-4]     name: 'OptanonConsent',
+[0-4]     path: '/intl',
+[0-4]     sameSite: 'Lax',
+[0-4]     secure: false,
+[0-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0'
+[0-4]   }
+[0-4] ]
+[0-4] 2021-06-04T16:32:01.873Z INFO webdriver: COMMAND getAllCookies()
+[0-4] 2021-06-04T16:32:01.873Z INFO webdriver: [GET] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6/cookie
+[0-4] 2021-06-04T16:32:01.894Z INFO webdriver: RESULT [
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '123'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1685896321,
+[0-4]     httpOnly: false,
+[0-4]     name: '_ga',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1468707562.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622831511,
+[0-4]     httpOnly: true,
+[0-4]     name: 'ak_bmsc',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: '138C56A12BCF1804CC28874B659DB4515F650DC5DC5600007755BA60269C4321~ploGOeqOF33cJm5h0T+ZZxMU0f3JZ6a3RdV5eD09tVqNKfu8BTUWJzQy/6Iw372i3lMMHQqqhxsgkhd32GnnexzXv0Ee3F6pv1Tmf3D/6QAjPEafoY5HXJpze+vZylahsM7/WE70sfo9aTsaA5g1YcCW9u150BWas4BmxVOkMDFkMGncBE7t8wU50419klMb9oRWUhNnaR/zXwCs09n9nc3q7ad5Ul5YE0yoUpvwDZWHQf7NpwGq/kD6F49NAW7SH5VJC9Q51dv4O0fKVEWLF0VACDlaP56NuLwiyarfE7hCM='
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622910721,
+[0-4]     httpOnly: false,
+[0-4]     name: '_gid',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1276721492.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.www.volvocars.com',
+[0-4]     expiry: 1654360320,
+[0-4]     httpOnly: false,
+[0-4]     name: 'OptanonConsent',
+[0-4]     path: '/intl',
+[0-4]     sameSite: 'Lax',
+[0-4]     secure: false,
+[0-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0'
+[0-4]   }
+[0-4] ]
+[0-4] [
+[0-4]   {
+[0-4]     domain: 'www.volvocars.com',
+[0-4]     httpOnly: false,
+[0-4]     name: 'testing',
+[0-4]     path: '/',
+[0-4]     secure: true,
+[0-4]     value: '123'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1685896321,
+[0-4]     httpOnly: false,
+[0-4]     name: '_ga',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1468707562.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622831511,
+[0-4]     httpOnly: true,
+[0-4]     name: 'ak_bmsc',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: '138C56A12BCF1804CC28874B659DB4515F650DC5DC5600007755BA60269C4321~ploGOeqOF33cJm5h0T+ZZxMU0f3JZ6a3RdV5eD09tVqNKfu8BTUWJzQy/6Iw372i3lMMHQqqhxsgkhd32GnnexzXv0Ee3F6pv1Tmf3D/6QAjPEafoY5HXJpze+vZylahsM7/WE70sfo9aTsaA5g1YcCW9u150BWas4BmxVOkMDFkMGncBE7t8wU50419klMb9oRWUhNnaR/zXwCs09n9nc3q7ad5Ul5YE0yoUpvwDZWHQf7NpwGq/kD6F49NAW7SH5VJC9Q51dv4O0fKVEWLF0VACDlaP56NuLwiyarfE7hCM='
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.volvocars.com',
+[0-4]     expiry: 1622910721,
+[0-4]     httpOnly: false,
+[0-4]     name: '_gid',
+[0-4]     path: '/',
+[0-4]     secure: false,
+[0-4]     value: 'GA1.2.1276721492.1622824314'
+[0-4]   },
+[0-4]   {
+[0-4]     domain: '.www.volvocars.com',
+[0-4]     expiry: 1654360320,
+[0-4]     httpOnly: false,
+[0-4]     name: 'OptanonConsent',
+[0-4]     path: '/intl',
+[0-4]     sameSite: 'Lax',
+[0-4]     secure: false,
+[0-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0'
+[0-4]   }
+[0-4] ]
+[0-4] 2021-06-04T16:32:01.898Z INFO webdriver: COMMAND deleteSession()
+[0-4] 2021-06-04T16:32:01.899Z INFO webdriver: [DELETE] http://localhost:9515/session/a41e589153c47e1b8210076bf2b95aa6
+[0-3] PASSED in chrome - C:\Users\jency\Documents\New-work\test\specs\example.e2e.js
+[0-4] PASSED in chrome - C:\Users\jency\Documents\New-work\test\testingfile.js
+[1-3] 2021-06-04T16:32:04.852Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-4] 2021-06-04T16:32:05.012Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-3] 2021-06-04T16:32:07.222Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:07.808Z INFO devtools: RESULT null
+[1-3] 2021-06-04T16:32:07.921Z INFO devtools: COMMAND findElement("xpath", ".//h2[normalize-space() = "Ideas that change the world are often the most controversial."]")
+[1-4] 2021-06-04T16:32:08.390Z INFO devtools: COMMAND findElement("xpath", ".//h2[normalize-space() = "Ideas that change the world are often the most controversial."]")
+[1-3] 2021-06-04T16:32:08.378Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+[1-3] 2021-06-04T16:32:08.539Z INFO devtools: COMMAND getElementText("ELEMENT-1")
+[1-4] 2021-06-04T16:32:08.686Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+[1-3] 2021-06-04T16:32:08.722Z INFO devtools: RESULT Ideas that change the world are often the most controversial.
+[1-3] Ideas that change the world are often the most controversial.
+[1-3] 2021-06-04T16:32:08.731Z INFO devtools: COMMAND getElementTagName("ELEMENT-1")
+[1-3] 2021-06-04T16:32:08.749Z INFO devtools: RESULT h2
+[1-3] h2
+[1-3] 2021-06-04T16:32:08.765Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-4] 2021-06-04T16:32:08.842Z INFO devtools: COMMAND getElementText("ELEMENT-1")
+[1-4] 2021-06-04T16:32:09.006Z INFO devtools: RESULT Ideas that change the world are often the most controversial.
+[1-4] Ideas that change the world are often the most controversial.
+[1-4] 2021-06-04T16:32:09.075Z INFO devtools: COMMAND getElementTagName("ELEMENT-1")
+[1-4] 2021-06-04T16:32:09.176Z INFO devtools: RESULT h2
+[1-4] h2
+[1-4] 2021-06-04T16:32:09.245Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-3] 2021-06-04T16:32:10.031Z INFO devtools: RESULT null
+[1-3] 2021-06-04T16:32:10.448Z INFO devtools: COMMAND findElement("css selector", ".a.ae.af.aj.ak.ao.az.ba.bb.bc.bd.be.bf.bg.bh.bi.bj.bk.bl.x.y")
+[1-3] 2021-06-04T16:32:10.627Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+[1-3] 2021-06-04T16:32:10.640Z INFO devtools: COMMAND getElementText("ELEMENT-2")
+[1-3] 2021-06-04T16:32:10.790Z INFO devtools: RESULT After we introduced the 3-point safety belt, we faced a world of criticism. Since then, it has saved more than a million lives. Now it's time for the next step. For everyone's safety.
+[1-3] After we introduced the 3-point safety belt, we faced a world of criticism. Since then, it has saved more than a million lives. Now it's time for the next step. For everyone's safety.
+[1-3] 2021-06-04T16:32:10.803Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-4] 2021-06-04T16:32:11.128Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:11.440Z INFO devtools: COMMAND findElement("css selector", ".a.ae.af.aj.ak.ao.az.ba.bb.bc.bd.be.bf.bg.bh.bi.bj.bk.bl.x.y")
+[1-4] 2021-06-04T16:32:11.563Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+[1-4] 2021-06-04T16:32:11.619Z INFO devtools: COMMAND getElementText("ELEMENT-2")
+[1-4] 2021-06-04T16:32:11.639Z INFO devtools: RESULT After we introduced the 3-point safety belt, we faced a world of criticism. Since then, it has saved more than a million lives. Now it's time for the next step. For everyone's safety.
+[1-4] After we introduced the 3-point safety belt, we faced a world of criticism. Since then, it has saved more than a million lives. Now it's time for the next step. For everyone's safety.
+[1-4] 2021-06-04T16:32:11.650Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-3] 2021-06-04T16:32:12.297Z INFO devtools: RESULT null
+[1-3] 2021-06-04T16:32:12.730Z INFO devtools: COMMAND findElement("css selector", "._SiteNav-a._SiteNav-av._SiteNav-aw._SiteNav-ax")
+[1-3] 2021-06-04T16:32:13.054Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+[1-3] 2021-06-04T16:32:13.117Z INFO devtools: COMMAND getElementRect("ELEMENT-3")
+[1-3] 2021-06-04T16:32:13.245Z INFO devtools: RESULT { x: 1206.6666259765625, y: 28.166671752929688, width: 86, height: 7 }
+[1-3] { width: 86, height: 7 }
+[1-3] 2021-06-04T16:32:13.265Z INFO devtools: COMMAND getElementRect("ELEMENT-3")
+[1-3] 2021-06-04T16:32:13.279Z INFO devtools: RESULT { x: 1206.6666259765625, y: 28.166671752929688, width: 86, height: 7 }
+[1-3] 86
+[1-3] 2021-06-04T16:32:13.294Z INFO devtools: COMMAND getElementRect("ELEMENT-3")
+[1-3] 2021-06-04T16:32:13.311Z INFO devtools: RESULT { x: 1206.6666259765625, y: 28.166671752929688, width: 86, height: 7 }
+[1-3] 7
+[1-3] 2021-06-04T16:32:13.321Z INFO devtools: COMMAND deleteSession()
+[1-4] 2021-06-04T16:32:13.509Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:13.988Z INFO devtools: COMMAND findElement("css selector", "._SiteNav-a._SiteNav-av._SiteNav-aw._SiteNav-ax")
+[1-4] 2021-06-04T16:32:14.313Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+[1-4] 2021-06-04T16:32:14.369Z INFO devtools: COMMAND getElementRect("ELEMENT-3")
+[1-4] 2021-06-04T16:32:14.397Z INFO devtools: RESULT { x: 1206.6666259765625, y: 28.166671752929688, width: 86, height: 7 }
+[1-4] { width: 86, height: 7 }
+[1-4] 2021-06-04T16:32:14.468Z INFO devtools: COMMAND getElementRect("ELEMENT-3")
+[1-4] 2021-06-04T16:32:14.525Z INFO devtools: RESULT { x: 1206.6666259765625, y: 28.166671752929688, width: 86, height: 7 }
+[1-4] 86
+[1-4] 2021-06-04T16:32:14.533Z INFO devtools: COMMAND getElementRect("ELEMENT-3")
+[1-4] 2021-06-04T16:32:14.563Z INFO devtools: RESULT { x: 1206.6666259765625, y: 28.166671752929688, width: 86, height: 7 }
+[1-4] 7
+[1-4] 2021-06-04T16:32:14.576Z INFO devtools: COMMAND findElement("css selector", ".a.az.bb.bz.gc.gd.gk.gl.gm.gn.go.gp.gq.gr.gs.gt.gu.gv.gw.gx.gy.gz.ha.hb.hc.hd.he.hf.hg.hh.hi.y")
+[1-4] 2021-06-04T16:32:14.580Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+[1-4] 2021-06-04T16:32:14.592Z INFO devtools: COMMAND getElementProperty("ELEMENT-4", "value")
+[1-4] undefined
+[1-4] 2021-06-04T16:32:14.620Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-3] 2021-06-04T16:32:15.918Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:15.950Z INFO devtools: RESULT null
+[1-3] PASSED in firefox - C:\Users\jency\Documents\New-work\test\specs\example.e2e.js
+[1-4] 2021-06-04T16:32:16.203Z INFO devtools: COMMAND getUrl()
+[1-4] 2021-06-04T16:32:16.353Z INFO devtools: RESULT https://www.volvocars.com/intl/v/car-safety/a-million-more
+[1-4] https://www.volvocars.com/intl/v/car-safety/a-million-more
+[1-4] 2021-06-04T16:32:16.367Z INFO devtools: COMMAND findElement("css selector", ".a.ck.cl.co.cp.jq.jr.js")     
+[1-4] 2021-06-04T16:32:16.411Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+[1-4] 2021-06-04T16:32:16.465Z INFO devtools: COMMAND getElementRect("ELEMENT-5")
+[1-4] 2021-06-04T16:32:16.483Z INFO devtools: RESULT {
+[1-4]   x: 603.3333129882812,
+[1-4]   y: 3503.63330078125,
+[1-4]   width: 499.5,
+[1-4]   height: 374.6166687011719
+[1-4] }
+[1-4] { width: 499.5, height: 374.6166687011719 }
+[1-4] 2021-06-04T16:32:16.494Z INFO devtools: COMMAND getElementRect("ELEMENT-5")
+[1-4] 2021-06-04T16:32:16.509Z INFO devtools: RESULT {
+[1-4]   x: 603.3333129882812,
+[1-4]   y: 3503.63330078125,
+[1-4]   width: 499.5,
+[1-4]   height: 374.6166687011719
+[1-4] }
+[1-4] 499.5
+[1-4] 2021-06-04T16:32:16.516Z INFO devtools: COMMAND getElementRect("ELEMENT-5")
+[1-4] 2021-06-04T16:32:16.534Z INFO devtools: RESULT {
+[1-4]   x: 603.3333129882812,
+[1-4]   y: 3503.63330078125,
+[1-4]   width: 499.5,
+[1-4]   height: 374.6166687011719
+[1-4] }
+[1-4] 374.6166687011719
+[1-4] 2021-06-04T16:32:16.546Z INFO devtools: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+[1-4] 2021-06-04T16:32:17.258Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:17.475Z INFO devtools: COMMAND findElement("css selector", "._SiteNav-a._SiteNav-av._SiteNav-aw._SiteNav-ax")
+[1-4] 2021-06-04T16:32:17.612Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+[1-4] 2021-06-04T16:32:17.628Z INFO devtools: COMMAND getElementTagName("ELEMENT-6")
+[1-4] 2021-06-04T16:32:17.697Z INFO devtools: RESULT img
+[1-4] img
+[1-4] 2021-06-04T16:32:17.712Z INFO devtools: COMMAND getWindowRect()
+[1-4] 2021-06-04T16:32:17.713Z INFO devtools: RESULT { width: 1200, height: 900, x: 0, y: 0 }
+[1-4] { width: 1200, height: 900 }
+[1-4] 2021-06-04T16:32:17.726Z INFO devtools: COMMAND addCookie(<object>)
+[1-4] 2021-06-04T16:32:17.728Z INFO devtools: COMMAND addCookie(<object>)
+[1-4] 2021-06-04T16:32:17.732Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:17.733Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:17.742Z INFO devtools: COMMAND getAllCookies()
+[1-4] 2021-06-04T16:32:17.746Z INFO devtools: RESULT [
+[1-4]   {
+[1-4]     name: 'ak_bmsc',
+[1-4]     value: '60ED96FA20C0255CD9920EC3F0FCA74C5F650DC5DC5600008455BA60C0C74513~plipFYnxt+SpgcgoQakOG0jTbZb27HB/9pCp2Qt55XAi0SxlyQ8+2VYirQ9jSQLaJc2D7WJB9pNsTDS+vhrmUYge3dRmjw6CxPr7A9m3K8LJayzKNH+2xldYfskmrpZ7Xie8gZVkYSgxuN2f29wv+2oLdyngg4kOaud6iaugfy/8TdD2wY5TiuJs+kKMdPoQSBZh+T10HU8xxLMdmUL5zUhNkH8z1kJCW87S36keQpSu3ldxW/CpaTQSsk4dGFNvzZ',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622831524,
+[1-4]     size: 330,
+[1-4]     httpOnly: true,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'OptanonConsent',
+[1-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0',
+[1-4]     domain: '.www.volvocars.com',
+[1-4]     path: '/intl',
+[1-4]     expires: 1654360337,
+[1-4]     size: 492,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false,
+[1-4]     sameSite: 'Lax'
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_ga',
+[1-4]     value: 'GA1.2.1766192500.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1685896337,
+[1-4]     size: 30,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_gid',
+[1-4]     value: 'GA1.2.1955049584.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622910737,
+[1-4]     size: 31,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing',
+[1-4]     value: '123',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 10,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing1',
+[1-4]     value: '1233',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 12,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   }
+[1-4] ]
+[1-4] [
+[1-4]   {
+[1-4]     name: 'ak_bmsc',
+[1-4]     value: '60ED96FA20C0255CD9920EC3F0FCA74C5F650DC5DC5600008455BA60C0C74513~plipFYnxt+SpgcgoQakOG0jTbZb27HB/9pCp2Qt55XAi0SxlyQ8+2VYirQ9jSQLaJc2D7WJB9pNsTDS+vhrmUYge3dRmjw6CxPr7A9m3K8LJayzKNH+2xldYfskmrpZ7Xie8gZVkYSgxuN2f29wv+2oLdyngg4kOaud6iaugfy/8TdD2wY5TiuJs+kKMdPoQSBZh+T10HU8xxLMdmUL5zUhNkH8z1kJCW87S36keQpSu3ldxW/CpaTQSsk4dGFNvzZ',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622831524,
+[1-4]     size: 330,
+[1-4]     httpOnly: true,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'OptanonConsent',
+[1-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0',
+[1-4]     domain: '.www.volvocars.com',
+[1-4]     path: '/intl',
+[1-4]     expires: 1654360337,
+[1-4]     size: 492,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false,
+[1-4]     sameSite: 'Lax'
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_ga',
+[1-4]     value: 'GA1.2.1766192500.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1685896337,
+[1-4]     size: 30,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_gid',
+[1-4]     value: 'GA1.2.1955049584.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622910737,
+[1-4]     size: 31,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing',
+[1-4]     value: '123',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 10,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing1',
+[1-4]     value: '1233',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 12,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   }
+[1-4] ]
+[1-4] 2021-06-04T16:32:17.759Z INFO devtools: COMMAND deleteCookie("<Screenshot[base64]>")
+[1-4] 2021-06-04T16:32:17.766Z INFO devtools: RESULT null
+[1-4] 2021-06-04T16:32:17.777Z INFO devtools: COMMAND getAllCookies()
+[1-4] 2021-06-04T16:32:17.780Z INFO devtools: RESULT [
+[1-4]   {
+[1-4]     name: 'ak_bmsc',
+[1-4]     value: '60ED96FA20C0255CD9920EC3F0FCA74C5F650DC5DC5600008455BA60C0C74513~plipFYnxt+SpgcgoQakOG0jTbZb27HB/9pCp2Qt55XAi0SxlyQ8+2VYirQ9jSQLaJc2D7WJB9pNsTDS+vhrmUYge3dRmjw6CxPr7A9m3K8LJayzKNH+2xldYfskmrpZ7Xie8gZVkYSgxuN2f29wv+2oLdyngg4kOaud6iaugfy/8TdD2wY5TiuJs+kKMdPoQSBZh+T10HU8xxLMdmUL5zUhNkH8z1kJCW87S36keQpSu3ldxW/CpaTQSsk4dGFNvzZ',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622831524,
+[1-4]     size: 330,
+[1-4]     httpOnly: true,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'OptanonConsent',
+[1-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0',
+[1-4]     domain: '.www.volvocars.com',
+[1-4]     path: '/intl',
+[1-4]     expires: 1654360337,
+[1-4]     size: 492,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false,
+[1-4]     sameSite: 'Lax'
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_ga',
+[1-4]     value: 'GA1.2.1766192500.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1685896337,
+[1-4]     size: 30,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_gid',
+[1-4]     value: 'GA1.2.1955049584.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622910737,
+[1-4]     size: 31,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing',
+[1-4]     value: '123',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 10,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   }
+[1-4] ]
+[1-4] [
+[1-4]   {
+[1-4]     name: 'ak_bmsc',
+[1-4]     value: '60ED96FA20C0255CD9920EC3F0FCA74C5F650DC5DC5600008455BA60C0C74513~plipFYnxt+SpgcgoQakOG0jTbZb27HB/9pCp2Qt55XAi0SxlyQ8+2VYirQ9jSQLaJc2D7WJB9pNsTDS+vhrmUYge3dRmjw6CxPr7A9m3K8LJayzKNH+2xldYfskmrpZ7Xie8gZVkYSgxuN2f29wv+2oLdyngg4kOaud6iaugfy/8TdD2wY5TiuJs+kKMdPoQSBZh+T10HU8xxLMdmUL5zUhNkH8z1kJCW87S36keQpSu3ldxW/CpaTQSsk4dGFNvzZ',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622831524,
+[1-4]     size: 330,
+[1-4]     httpOnly: true,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'OptanonConsent',
+[1-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0',
+[1-4]     domain: '.www.volvocars.com',
+[1-4]     path: '/intl',
+[1-4]     expires: 1654360337,
+[1-4]     size: 492,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false,
+[1-4]     sameSite: 'Lax'
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_ga',
+[1-4]     value: 'GA1.2.1766192500.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1685896337,
+[1-4]     size: 30,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_gid',
+[1-4]     value: 'GA1.2.1955049584.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622910737,
+[1-4]     size: 31,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing',
+[1-4]     value: '123',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 10,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   }
+[1-4] ]
+[1-4] 2021-06-04T16:32:17.797Z INFO devtools: COMMAND getAllCookies()
+[1-4] 2021-06-04T16:32:17.799Z INFO devtools: RESULT [
+[1-4]   {
+[1-4]     name: 'ak_bmsc',
+[1-4]     value: '60ED96FA20C0255CD9920EC3F0FCA74C5F650DC5DC5600008455BA60C0C74513~plipFYnxt+SpgcgoQakOG0jTbZb27HB/9pCp2Qt55XAi0SxlyQ8+2VYirQ9jSQLaJc2D7WJB9pNsTDS+vhrmUYge3dRmjw6CxPr7A9m3K8LJayzKNH+2xldYfskmrpZ7Xie8gZVkYSgxuN2f29wv+2oLdyngg4kOaud6iaugfy/8TdD2wY5TiuJs+kKMdPoQSBZh+T10HU8xxLMdmUL5zUhNkH8z1kJCW87S36keQpSu3ldxW/CpaTQSsk4dGFNvzZ',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622831524,
+[1-4]     size: 330,
+[1-4]     httpOnly: true,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'OptanonConsent',
+[1-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0',
+[1-4]     domain: '.www.volvocars.com',
+[1-4]     path: '/intl',
+[1-4]     expires: 1654360337,
+[1-4]     size: 492,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false,
+[1-4]     sameSite: 'Lax'
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_ga',
+[1-4]     value: 'GA1.2.1766192500.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1685896337,
+[1-4]     size: 30,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_gid',
+[1-4]     value: 'GA1.2.1955049584.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622910737,
+[1-4]     size: 31,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing',
+[1-4]     value: '123',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 10,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   }
+[1-4] ]
+[1-4] [
+[1-4]   {
+[1-4]     name: 'ak_bmsc',
+[1-4]     value: '60ED96FA20C0255CD9920EC3F0FCA74C5F650DC5DC5600008455BA60C0C74513~plipFYnxt+SpgcgoQakOG0jTbZb27HB/9pCp2Qt55XAi0SxlyQ8+2VYirQ9jSQLaJc2D7WJB9pNsTDS+vhrmUYge3dRmjw6CxPr7A9m3K8LJayzKNH+2xldYfskmrpZ7Xie8gZVkYSgxuN2f29wv+2oLdyngg4kOaud6iaugfy/8TdD2wY5TiuJs+kKMdPoQSBZh+T10HU8xxLMdmUL5zUhNkH8z1kJCW87S36keQpSu3ldxW/CpaTQSsk4dGFNvzZ',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622831524,
+[1-4]     size: 330,
+[1-4]     httpOnly: true,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'OptanonConsent',
+[1-4]     value: 'isIABGlobal=false&datestamp=Fri+Jun+04+2021+18%3A32%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&landingPath=https%3A%2F%2Fwww.volvocars.com%2Fintl%2Fv%2Fcar-safety%2Fa-million-more&groups=0_148076%3A0%2C1%3A1%2C0_148078%3A0%2C2%3A0%2C3%3A0%2C0_148077%3A0%2C4%3A0%2C9%3A1%2C0_148074%3A1%2C0_299017%3A1%2C0_166409%3A0%2C0_275693%3A0%2C0_166408%3A0%2C0_148071%3A0%2C0_148072%3A1%2C0_235284%3A0%2C0_288567%3A0%2C0_301785%3A1%2C0_235195%3A1%2C0_192016%3A0%2C101%3A0',
+[1-4]     domain: '.www.volvocars.com',
+[1-4]     path: '/intl',
+[1-4]     expires: 1654360337,
+[1-4]     size: 492,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false,
+[1-4]     sameSite: 'Lax'
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_ga',
+[1-4]     value: 'GA1.2.1766192500.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1685896337,
+[1-4]     size: 30,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: '_gid',
+[1-4]     value: 'GA1.2.1955049584.1622824329',
+[1-4]     domain: '.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: 1622910737,
+[1-4]     size: 31,
+[1-4]     httpOnly: false,
+[1-4]     secure: false,
+[1-4]     session: false
+[1-4]   },
+[1-4]   {
+[1-4]     name: 'testing',
+[1-4]     value: '123',
+[1-4]     domain: 'www.volvocars.com',
+[1-4]     path: '/',
+[1-4]     expires: -1,
+[1-4]     size: 10,
+[1-4]     httpOnly: false,
+[1-4]     secure: true,
+[1-4]     session: true
+[1-4]   }
+[1-4] ]
+[1-4] 2021-06-04T16:32:17.814Z INFO devtools: COMMAND deleteSession()
+[1-4] 2021-06-04T16:32:19.654Z INFO devtools: RESULT null
+[1-4] PASSED in firefox - C:\Users\jency\Documents\New-work\test\testingfile.js
+2021-06-04T16:32:19.783Z INFO @wdio/cli:launcher: Run onComplete hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 90.0.4430.212 windows #0-3] Running: chrome (v90.0.4430.212) on windows
+[chrome 90.0.4430.212 windows #0-3] Session ID: 21ef0cfb9c64b1066c8650641a1cfa6e
+[chrome 90.0.4430.212 windows #0-3]
+[chrome 90.0.4430.212 windows #0-3] » \test\specs\example.e2e.js
+[chrome 90.0.4430.212 windows #0-3] intraction with web element
+[chrome 90.0.4430.212 windows #0-3]    ✓ Find the text value
+[chrome 90.0.4430.212 windows #0-3]    ✓ find the text using class value
+[chrome 90.0.4430.212 windows #0-3]    ✓ find the logo details
+[chrome 90.0.4430.212 windows #0-3]
+[chrome 90.0.4430.212 windows #0-3] 3 passing (10.9s)
+------------------------------------------------------------------
+[chrome 90.0.4430.212 windows #0-4] Running: chrome (v90.0.4430.212) on windows
+[chrome 90.0.4430.212 windows #0-4] Session ID: a41e589153c47e1b8210076bf2b95aa6
+[chrome 90.0.4430.212 windows #0-4]
+[chrome 90.0.4430.212 windows #0-4] » \test\testingfile.js
+[chrome 90.0.4430.212 windows #0-4] intraction with web element
+[chrome 90.0.4430.212 windows #0-4]    ✓ Find the text value
+[chrome 90.0.4430.212 windows #0-4]    ✓ find the text using class value
+[chrome 90.0.4430.212 windows #0-4]    ✓ find the logo details
+[chrome 90.0.4430.212 windows #0-4]    ✓  getValue command
+[chrome 90.0.4430.212 windows #0-4]    ✓ Url testing
+[chrome 90.0.4430.212 windows #0-4]    ✓ get the image details
+[chrome 90.0.4430.212 windows #0-4]    ✓ getting logo tagname
+[chrome 90.0.4430.212 windows #0-4]    ✓ should return browser window size
+[chrome 90.0.4430.212 windows #0-4]    ✓ some testing with cookies
+[chrome 90.0.4430.212 windows #0-4]
+[chrome 90.0.4430.212 windows #0-4] 9 passing (11.1s)
+------------------------------------------------------------------
+[Firefox 91.0 win32 #1-3] Running: Firefox (v91.0) on win32
+[Firefox 91.0 win32 #1-3] Session ID: a9f8dfe1-1bdc-4f49-8d75-8de54d4b0321
+[Firefox 91.0 win32 #1-3]
+[Firefox 91.0 win32 #1-3] » \test\specs\example.e2e.js
+[Firefox 91.0 win32 #1-3] intraction with web element
+[Firefox 91.0 win32 #1-3]    ✓ Find the text value
+[Firefox 91.0 win32 #1-3]    ✓ find the text using class value
+[Firefox 91.0 win32 #1-3]    ✓ find the logo details
+[Firefox 91.0 win32 #1-3]
+[Firefox 91.0 win32 #1-3] 3 passing (11.2s)
+------------------------------------------------------------------
+[Firefox 91.0 win32 #1-4] Running: Firefox (v91.0) on win32
+[Firefox 91.0 win32 #1-4] Session ID: 579280e8-ad26-4032-8c36-41f48e975dd0
+[Firefox 91.0 win32 #1-4]
+[Firefox 91.0 win32 #1-4] » \test\testingfile.js
+[Firefox 91.0 win32 #1-4] intraction with web element
+[Firefox 91.0 win32 #1-4]    ✓ Find the text value
+[Firefox 91.0 win32 #1-4]    ✓ find the text using class value
+[Firefox 91.0 win32 #1-4]    ✓ find the logo details
+[Firefox 91.0 win32 #1-4]    ✓  getValue command
+[Firefox 91.0 win32 #1-4]    ✓ Url testing
+[Firefox 91.0 win32 #1-4]    ✓ get the image details
+[Firefox 91.0 win32 #1-4]    ✓ getting logo tagname
+[Firefox 91.0 win32 #1-4]    ✓ should return browser window size
+[Firefox 91.0 win32 #1-4]    ✓ some testing with cookies
+[Firefox 91.0 win32 #1-4]
+[Firefox 91.0 win32 #1-4] 9 passing (14.8s)
+
+
+Spec Files:      4 passed, 6 skipped, 10 total (100% completed) in 00:00:33
+
+2021-06-04T16:32:19.808Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-06-04T16:32:20.063Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2021-06-04T16:32:20.064Z INFO @wdio/local-runner: shutting down
