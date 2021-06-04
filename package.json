@@ -1,0 +1,30 @@
+{
+  "name": "new-work",
+  "version": "1.0.0",
+  "description": "Automation test webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./wdio.conf.js"
+  },
+  "author": "Jency raj",
+  "license": "ISC",
+  "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+  
+  "devDependencies": {
+    "@wdio/local-runner": "^7.7.2",
+    "@wdio/mocha-framework": "^7.7.2",
+    "@wdio/spec-reporter": "^7.7.0",
+    "@wdio/sync": "^7.7.2",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^90.0.1",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^7.1.0",
+    "wdio-docker-service": "^3.1.2",
+    "webdriverio": "^7.7.2"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.7.2",
+    "yargs-parser": "^20.2.7"
+  }
+}
