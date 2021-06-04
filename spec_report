@@ -1,0 +1,61 @@
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 90.0.4430.212 windows #0-3] Running: chrome (v90.0.4430.212) on windows
+[chrome 90.0.4430.212 windows #0-3] Session ID: 21ef0cfb9c64b1066c8650641a1cfa6e
+[chrome 90.0.4430.212 windows #0-3]
+[chrome 90.0.4430.212 windows #0-3] » \test\specs\example.e2e.js
+[chrome 90.0.4430.212 windows #0-3] intraction with web element
+[chrome 90.0.4430.212 windows #0-3]    ✓ Find the text value
+[chrome 90.0.4430.212 windows #0-3]    ✓ find the text using class value
+[chrome 90.0.4430.212 windows #0-3]    ✓ find the logo details
+[chrome 90.0.4430.212 windows #0-3]
+[chrome 90.0.4430.212 windows #0-3] 3 passing (10.9s)
+------------------------------------------------------------------
+[chrome 90.0.4430.212 windows #0-4] Running: chrome (v90.0.4430.212) on windows
+[chrome 90.0.4430.212 windows #0-4] Session ID: a41e589153c47e1b8210076bf2b95aa6
+[chrome 90.0.4430.212 windows #0-4]
+[chrome 90.0.4430.212 windows #0-4] » \test\testingfile.js
+[chrome 90.0.4430.212 windows #0-4] intraction with web element
+[chrome 90.0.4430.212 windows #0-4]    ✓ Find the text value
+[chrome 90.0.4430.212 windows #0-4]    ✓ find the text using class value
+[chrome 90.0.4430.212 windows #0-4]    ✓ find the logo details
+[chrome 90.0.4430.212 windows #0-4]    ✓  getValue command
+[chrome 90.0.4430.212 windows #0-4]    ✓ Url testing
+[chrome 90.0.4430.212 windows #0-4]    ✓ get the image details
+[chrome 90.0.4430.212 windows #0-4]    ✓ getting logo tagname
+[chrome 90.0.4430.212 windows #0-4]    ✓ should return browser window size
+[chrome 90.0.4430.212 windows #0-4]    ✓ some testing with cookies
+[chrome 90.0.4430.212 windows #0-4]
+[chrome 90.0.4430.212 windows #0-4] 9 passing (11.1s)
+------------------------------------------------------------------
+[Firefox 91.0 win32 #1-3] Running: Firefox (v91.0) on win32
+[Firefox 91.0 win32 #1-3] Session ID: a9f8dfe1-1bdc-4f49-8d75-8de54d4b0321
+[Firefox 91.0 win32 #1-3]
+[Firefox 91.0 win32 #1-3] » \test\specs\example.e2e.js
+[Firefox 91.0 win32 #1-3] intraction with web element
+[Firefox 91.0 win32 #1-3]    ✓ Find the text value
+[Firefox 91.0 win32 #1-3]    ✓ find the text using class value
+[Firefox 91.0 win32 #1-3]    ✓ find the logo details
+[Firefox 91.0 win32 #1-3]
+[Firefox 91.0 win32 #1-3] 3 passing (11.2s)
+------------------------------------------------------------------
+[Firefox 91.0 win32 #1-4] Running: Firefox (v91.0) on win32
+[Firefox 91.0 win32 #1-4] Session ID: 579280e8-ad26-4032-8c36-41f48e975dd0
+[Firefox 91.0 win32 #1-4]
+[Firefox 91.0 win32 #1-4] » \test\testingfile.js
+[Firefox 91.0 win32 #1-4] intraction with web element
+[Firefox 91.0 win32 #1-4]    ✓ Find the text value
+[Firefox 91.0 win32 #1-4]    ✓ find the text using class value
+[Firefox 91.0 win32 #1-4]    ✓ find the logo details
+[Firefox 91.0 win32 #1-4]    ✓  getValue command
+[Firefox 91.0 win32 #1-4]    ✓ Url testing
+[Firefox 91.0 win32 #1-4]    ✓ get the image details
+[Firefox 91.0 win32 #1-4]    ✓ getting logo tagname
+[Firefox 91.0 win32 #1-4]    ✓ should return browser window size
+[Firefox 91.0 win32 #1-4]    ✓ some testing with cookies
+[Firefox 91.0 win32 #1-4]
+[Firefox 91.0 win32 #1-4] 9 passing (14.8s)
+
+
+Spec Files:      4 passed, 6 skipped, 10 total (100% completed) in 00:00:33
