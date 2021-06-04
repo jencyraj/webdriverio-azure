@@ -1,8 +1,8 @@
 # webdriverio-azure
 From this work , I used visual studio code for writing the code and all. 
 install npm and used webdriveio 
-npm run test --> worked well in both driver . Here I used maximum intances 5 and chome and firefox nighty are the browsers . 
-Then I  tried to use dockerize the image , it worked well in my docker on mu local system. 
+npm run test --> worked well in both browser . Here I used maximum intances 5 and chome and firefox nighty are the browsers . 
+Then I  tried to use dockerize the image , it worked well in my docker on my local system. 
 Again I tried Azure pipeline . In this propcess firstly a liked my repo to Azure and create a pipeline.yml file afte I run the project it showed some warning error . It has some limitations to use Azure. 
 Overall , I used npm, webdriverio,docker, azure pipeline aswell. 
 Result: Automation testing worked well in both browsers. 
