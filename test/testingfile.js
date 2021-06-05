@@ -94,4 +94,12 @@ describe("intraction with web element", function(){
       //  console.log(windowSize);
 
     //});
+    it("text link and details",function(){
+        const subheading=$('div.a.az.bb.dz.gk.gn.go.gp.gs.gt.gv.gw.gz.ha.hb.hc.hd.he.hf.hg.hh.hi.hz.ia.ib.ic.id.ie.if.ig.ih.ii.ij.ik.y > p')
+       // console.log(subheading.text)
+        let textP = subheading.getText();
+        console.log(textP);
+        const alink=$('a.ab.as.ck.df.dh.di.dj.dk.dl.dm.dn.do.dp.dq.dr.ds.dt.du.dv.dx.dy.dz.eb.ee.hm.kl.km.kn.ko.kp.kq.kr.ks.kt.ku.l.y')
+        console.log(alink.getAttribute('href'))
+    });
 });
