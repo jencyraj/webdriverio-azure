@@ -18,5 +18,9 @@ npm webdriverio intstalation:
 - npm install chai-webdriverio --save-dev
 - npm install local-runner --save-dev
 - npm test run 
+## Parallel Testing 
+## Visual regression Using WebdriveIO image-Comaparison. 
+I could not finished this section becuse , It crashed inbetween. I got image comarison with first button ¨screenshot. I uploaded in the.doc folder . 
+.doc/examplePage-chrome-latest-1366x768.png
 
 
