@@ -2,7 +2,7 @@ describe("intraction with web element", function(){
     it("Find the text value",function(){
         browser.url('https://www.volvocars.com/intl/v/car-safety/a-million-more');
         const header = $('h2=Ideas that change the world are often the most controversial.')
-        //console.log(header.getText()) // outputs: "Welcome to my Page"
+        
         
         //const label = $('div.a.az.bb.dz.gk.gn.go.gp.gs.gt.gv.gw.gz.ha.hb.hc.hd.he.hf.hg.hh.hi.hz.ia.ib.ic.id.ie.if.ig.ih.ii.ij.ik.y');
         let text = header.getText();
@@ -37,7 +37,7 @@ describe("intraction with web element", function(){
     });
     
     it("Url testing",function(){
-        // navigate to a new URL
+       
     browser.url('https://www.volvocars.com/intl/v/car-safety/a-million-more');
     // receive url
     console.log(browser.getUrl());
@@ -62,7 +62,7 @@ describe("intraction with web element", function(){
         //
         browser.url('https://www.volvocars.com/intl/v/car-safety/a-million-more');
         const logo_d = $('._SiteNav-a._SiteNav-av._SiteNav-aw._SiteNav-ax')
-        //var element = driver.FindElement(By.TagName("img"));
+        
         const imageSrc = logo_d.getTagName('src')
         console.log(imageSrc);
     });
