@@ -89,4 +89,9 @@ describe("intraction with web element", function(){
         cookies = browser.getCookies()
         console.log(cookies) 
     });
+    //it("window resulution",function(){
+      //  const windowsize=browser.getWindowSize();
+      //  console.log(windowSize);
+
+    //});
 });
