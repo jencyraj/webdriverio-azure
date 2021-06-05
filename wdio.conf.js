@@ -1,4 +1,4 @@
-
+const { join } = require('path');
 exports.config = {
     //
     // ====================
@@ -128,7 +128,22 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     //services: ['docker'],
-    services: ['chromedriver'],
+    //services: ['chromedriver'],
+     services: [['chromedriver'],
+        ['image-comparison',
+        
+        {
+            
+            baselineFolder: join(process.cwd(), './tests/imgBaseline/'),
+            formatImageName: '{tag}-{logName}-{width}x{height}',
+            screenshotPath: join(process.cwd(), '.tmp/'),
+            savePerInstance: true,
+            autoSaveBaseline: true,
+            blockOutStatusBar: true,
+            blockOutToolBar: true,
+            
+        }],
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
