@@ -1,3 +1,6 @@
+function myfunc(massage,a,b,c){
+    return document.querySelector('video').paused;
+}
 describe("intraction with web element", function(){
     it("Find the text value",function(){
         browser.url('https://www.volvocars.com/intl/v/car-safety/a-million-more');
@@ -101,5 +104,9 @@ describe("intraction with web element", function(){
         console.log(textP);
         const alink=$('a.ab.as.ck.df.dh.di.dj.dk.dl.dm.dn.do.dp.dq.dr.ds.dt.du.dv.dx.dy.dz.eb.ee.hm.kl.km.kn.ko.kp.kq.kr.ks.kt.ku.l.y')
         console.log(alink.getAttribute('href'))
+    });
+    it("video paused",function(){
+        var IsPaused = browser.execute(myfunc);
+        console.log(IsPaused);
     });
 });
